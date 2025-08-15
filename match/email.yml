@@ -1,0 +1,37 @@
+# espanso email expansions
+matches:
+  # Support ticket response
+  - trigger: ":rk-ticket"
+    replace: |
+      Hi [Name],
+
+      Thanks for reaching out! To ensure your request is properly tracked and prioritized, please create a ticket here: https://ruralking.atlassian.net/servicedesk/customer/portal/4
+
+      Most requests are resolved by the end of the next sprint (typically less than a week), and urgent items are often handled same day.
+
+      I'll follow up once we've started working on it.
+
+      Thanks!
+      [Your name]
+
+  - trigger: ":rk-started"
+    replace: |
+      Hi [Name],
+
+      Good news! We've started working on your request (ticket #[TICKET_NUMBER]).
+
+      I'll reach out once the feature is deployed for you to test.
+
+      Thanks!
+      [Your name]
+
+  - trigger: ":rk-test"
+    replace: |
+      Hi [Name],
+
+      Your feature has been deployed! Please test it out when you have a chance and let me know if it's working as expected.
+
+      If you run into any issues or need adjustments, just reply here or update the ticket.
+
+      Thanks!
+      [Your name]
