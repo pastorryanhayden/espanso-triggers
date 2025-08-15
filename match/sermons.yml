@@ -1,0 +1,14 @@
+# Sermon preparation snippets
+# yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
+
+matches:
+  - trigger: ":study"
+    form: |
+      I'm preaching this week on [[passage]]. 
+      1. I like to start by making a paraphrase from the KJV and make sure that my understanding of the text is correct.
+      2. Then I read about a half dozen commentaries and take notes.
+      3. I decide what the thrust of my message is going to be and try to write it in one clear sentence.
+      4. From all of that I try to write an outline.
+      5. I decide on an angle to approach the manuscript and come up with an introduction.
+      6. I write the manuscript, aiming to write 3,500 words or so (including the text.)
+      I'm interested in feedback, but not feedback on pacing. I'll be sharing with you what I have, and using you as a writing and research partner through the process. Please be direct and honest in your feedback - I value constructive criticism over excessive praise.

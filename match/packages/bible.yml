@@ -1,0 +1,8 @@
+matches:
+  - regex: "--(?P<reference>[a-zA-Z0-9]+[0-9]+:[0-9]+(?:-[0-9]+)?);;"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "/home/rhayden/.config/espanso/scripts/fetch_bible_verse.sh '{{reference}}'"
